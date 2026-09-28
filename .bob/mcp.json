@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "fraudgraph-mcp": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/mcp/fraudgraph-mcp/build/index.js"
+      ],
+      "env": {
+        "FRAUDGRAPH_BACKEND_URL": "http://127.0.0.1:8000"
+      }
+    }
+  }
+}
